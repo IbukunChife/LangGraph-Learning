@@ -1,5 +1,9 @@
 import os
+from dotenv import load_dotenv
 from openai import OpenAI
+
+# Carrega variáveis de ambiente do arquivo .env
+load_dotenv()
 
 def LLMNode(state, prompt_template="Responda de forma clara: {input}"):
     """Nó que processa a entrada do usuário usando um modelo de linguagem."""

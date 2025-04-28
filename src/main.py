@@ -1,6 +1,5 @@
 from agent.agent import Agente
 
-
 def main():
     agent = Agente()
     print("=== Agente LangGraph Iniciado ===")
